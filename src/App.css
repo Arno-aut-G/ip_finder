@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background: #FFB6C1;
+  color: white;
+  padding: 0;
+}
+
+.block {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  color: black;
+  margin: 20px;
+  width: 100%;
+  min-width: 500px
+}
+
+.map {
+  text-align: center;
+  width: 100%;
+  min-width: 500px
+}
+
